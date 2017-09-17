@@ -30,7 +30,7 @@ span {
 }
 
 .label-value{
-    width: 200px;
+    width: 210px;
     vertical-align: top;
 }
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 .stack-list {
     list-style: none;
     padding-left: 0px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .stack-list li {
@@ -130,7 +130,8 @@ footer {
 }
 
 p {
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 progress {
@@ -184,7 +185,7 @@ progress::-moz-progress-value {
 
 .left-label {
     display: inline-block;
-    width: 120px;
+    width: 110px;
 }
 
 .portrait {
@@ -265,6 +266,7 @@ progress::-moz-progress-value {
 
 ul li{
     position: relative;
+    line-height: 1.6;
 }
 
  .experience-list .item-remove {
@@ -274,7 +276,6 @@ ul li{
     margin-right: 2px;
     visibility: hidden;
     cursor: pointer;
-    
 }
 
  .stack-list .item-remove {
@@ -286,5 +287,3 @@ ul li{
     cursor: pointer;
     
 }
-
-
