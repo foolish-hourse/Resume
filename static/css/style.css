@@ -58,9 +58,16 @@ h1 {
     color: #1C252A;
 }
 
-h2, h3 {
+h2 {
     font-weight: 500;
     line-height: 1.5;
+    color: #1C252A;
+}
+
+h3 {
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 5px;
     color: #1C252A;
 }
 
