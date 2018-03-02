@@ -55,14 +55,13 @@
                 <hr>
                 <p style="padding-bottom: 5px">扎实的 Objective-C 和 C 基础，具备良好的代码风格、设计思想和逻辑思维能力；</p>
                 <p style="padding-bottom: 5px">熟练使用 StoryBoard/xib/code 界面布局；</p>
-                <p style="padding-bottom: 5px">熟悉基本的绘图操作和动画；</p>
                 <p style="padding-bottom: 5px">熟练掌握 SQLite、plist、NSUserDefault、归档等数据持久化技术；</p>
                 <p style="padding-bottom: 5px">熟练使用各种设计模式： MVC、MVVM、代理、单例、工厂、KVC、KVO等；</p>
                 <p style="padding-bottom: 5px">熟悉网络编程，熟悉 XML/JSON 解析，熟悉 HTTP/HTTPS 协议的区别；</p>
-                <p style="padding-bottom: 5px">熟悉 Runtime 、RunLoop 以及 NSThread、GCD、NSOpeartion 等多线程开发；</p>
+                <p style="padding-bottom: 5px">熟悉 Runtime、RunLoop 以及 NSThread、GCD、NSOperation 等多线程开发；</p>
                 <p style="padding-bottom: 5px">熟练使用 Instruments 工具对 APP 进行性能优化和内存泄漏检查；</p>
                 <p style="padding-bottom: 5px">熟练使用 SVN、Git 等代码管理工具，以及多种主流第三方库，在 APICloud 平台开发过 iOS 代码模块；</p>
-                <p style="padding-bottom: 5px">在推送、支付、社会化分享、扫描、第三方登录、全景展示、即时通讯等实用开发方面有丰富经验；</p>
+                <p style="padding-bottom: 5px">在推送、支付、社会化分享、扫描、第三方登录、全景展示、即时通讯、图文混排等实用开发方面有丰富经验；</p>
             </div>
             <!-- <div class="skill info-unit">
                 <h2 class="info-header"><i class="iconfont icon-stars"></i> <span class="info-title">技能点</span></h2>
@@ -112,6 +111,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <ul class="experience-list">
+                  <li>在公司期间主导开发并维护线上 App 十余款，热爱技术分享</li>
+                  <li>不使用代码分层 (pragma mark) 会死星人</li>
+                  <li>注释“强迫症”患者</li>
+                    <!-- <li>坚持自主学习，完成实习生到负责人的快速成长，主导开发并维护线上 App 十余款</li>
+                    <li>良好的代码风格，信奉 "Talk is cheap, show me your code" 准则</li>
+                    <li>能够写出强稳定性高可用拓展性的代码，喜欢使用 pragma mark 对类中方法分层，对注释有强迫症</li>
+                    <li>常混迹 GitHub、code4App、Stack OverFlow 等，专注技术研究和创新</li> -->
+                </ul>
+            </div>
         </div>
         <div class="main">
             <div class="education info-unit right-list">
@@ -149,61 +161,53 @@
                 <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">部分项目</span></h2>
                 <hr>
                 <ul class="experience-list">
-                	<li>
-                        <h3><a href="http://url.cn/58nWA0n" style="color:#1C252A">好养客养老网</a> | 2017.04 - 至今</h3>
+                  <li>
+                      <h3><a href="http://url.cn/5NwBj8G" style="color:#1C252A">新帅柏商城</a> | 2016.08 - 至今</h3>
+                      <p>
+                          <b>项目职责：</b>独立开发，负责项目上线、开发文档的编写以及上架<br>
+                          <b>项目描述：</b>一家集“人·车·生活”为一体的商城类 App，涉及积分购物、话费充值、商品购买、订单查看、物流查询等。<br>
+                          <b>重要技术：</b><br>
+                          1. 使用分类对 AppDelegate 按功能划分，进行解耦<br>
+                          2. 使用 CAReplicatorLayer 实现页面加载动画<br>
+                          3. 使用 Runtime 实现 ViewController 在进入和退出时的 AOP 埋点<br>
+                          4. 使用 JavaScriptCore 处理 Objective-C 与 JavaScript 的交互
+                      </p>
+                  </li>
+                  <li>
+                      <h3><a href="http://url.cn/5P9UMZH" style="color:#1C252A;">货骑士</a> | 2016.12 - 至今</h3>
+                      <p>
+                          <b>项目职责：</b>合作开发，主要负责司机端模块<br>
+                          <b>项目描述：</b>一家互联网货运配送服务平台。利用 LBS 位置服务的智能化配送模式，致力于为用户解决同城和异地之间的货物配送，为货主提供“云端调度”。<br>
+                          <b>重要技术：</b><br>
+                          1. 基于百度地图实现货车定位、距离计算、路线规划等<br>
+                          2. 使用 Runtime 在 AFNetWorking 的基础上对网络层进行封装，将接口抽离成文件进行管理<br>
+                          3. 使用 AVFoundation 扫描个人信息二维码匹配司机信息<br>
+                          4. 使用 CADisplayLink 封装检测 FPS 的工具类
+                      </p>
+                  </li>
+                  <li>
+                        <h3><a href="http://url.cn/58nWA0n" style="color:#1C252A">好养客养老网</a> | 2017.05 - 2017.08</h3>
                         <p>
-                            <b>项目职责：</b>独立开发<br>
+                            <b>项目职责：</b>独立开发，负责项目上线以及后期维护<br>
                             <b>项目描述：</b>一款旅游养老的出行类 App，提供预定酒店、火车票、景区门票等服务。<br>
                             <b>重要技术：</b><br>
                             1. 使用 GLKit 实现全景功能<br>
-                            2. 基于 NSCalendar 类封装日历控件，实现火车票出行日期选择功能<br>
-                            3. 使用 CADisplayLink 实现波纹动画
+                            2. 自定义封装一个下拉刷新控件<br>
+                            3. 使用 Runtime 实现控制器动态创建跳转
                         </p>
-                    </li>
-                    <li>
-                        <h3><a href="http://url.cn/5P9UMZH" style="color:#1C252A;">货骑士</a> | 2016.12 - 至今</h3>
-                        <p>
-                            <b>项目职责：</b>合作开发，主要负责编写司机端<br>
-                            <b>项目描述：</b>一家互联网货运配送服务平台。利用 LBS 位置服务的智能化配送模式，致力于为用户解决同城和异地之间的货物配送，为货主提供“云端调度”。<br>
-                            <b>重要技术：</b><br>
-                            1. 基于百度地图实现货车定位、距离计算、路线规划等<br>
-                            2. 使用 Runtime 对 网络层进行封装，将接口抽离成文件进行管理<br>
-                            3. 利用 AVFoundation 扫描个人信息二维码匹配司机信息<br>
-                        </p>
-                    </li>
-                    <li>
-                        <h3><a href="http://url.cn/5NwBj8G" style="color:#1C252A">新帅柏商城</a> | 2016.08 - 至今</h3>
-                        <p>
-                            <b>项目职责：</b>独立开发<br>
-                            <b>项目描述：</b>一家集“人·车·生活”为一体的商城类 App，涉及积分购物、话费充值、商品购买、订单查看、物流查询等。<br>
-                            <b>重要技术：</b><br>
-                            1. 使用分类对 AppDelegate 进行解耦<br>
-                            2. 使用 Runtime 实现 控制器动态创建，实现界面动态跳转<br>
-                            3. 使用 CAReplicatorLayer 实现页面切换时的加载动画
-                        </p>
-                    </li>
-                    <li>
-                        <h3><a href="http://url.cn/5hmIbd8" style="color:#1C252A">作业秀</a> | 2016.03 - 2017.02</h3>
-                        <p>
-                            <b>项目职责：</b>二次开发，负责二期项目迭代维护<br>
-                            <b>项目描述：</b>
-                            一款师生线上沟通的学习类 App。教师布置、批改作业、加入班级群互动，学生则可以上传作业照片、做笔记、查看学习进度等，以此达到良好的监督和反馈。<br>
-                            <b>重要技术：</b><br>
-                            1. 接入环信 SDK 实现即时通讯的功能<br>
-                            2. 使用图文混排显示作业详情<br>
-                            3. 通过与后台制订 webView 交互协议，封装一套与后台进行 JavaScript 交互的组件
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="aboutme info-unit right-paragraph">
-                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
-                <hr>
-                <ul class="experience-list">
-                    <li>坚持自主学习，完成实习生到负责人的快速成长，主导开发并维护线上 App 十余款</li>
-                    <li>良好的代码风格，信奉 "Talk is cheap, show me your code" 准则</li>
-                    <li>能够写出强稳定性高可用拓展性的代码，喜欢使用 pragma mark 对类中方法分层，对注释有强迫症</li>
-                    <li>常混迹 GitHub、code4App、Stack OverFlow 等，专注技术研究和创新</li>
+                  </li>
+                  <li>
+                      <h3><a href="http://url.cn/5hmIbd8" style="color:#1C252A">作业秀</a> | 2016.03 - 2017.02</h3>
+                      <p>
+                          <b>项目职责：</b>二次开发，负责二期项目迭代维护<br>
+                          <b>项目描述：</b>
+                          一款师生线上沟通的学习类 App。教师布置、批改作业、加入班级群互动，学生则可以上传作业照片、做笔记、查看学习进度等，以此达到良好的监督和反馈。<br>
+                          <b>重要技术：</b><br>
+                          1. 接入环信 SDK 实现即时通讯的功能<br>
+                          2. 使用图文混排显示作业详情<br>
+                          3. 获取数据时保存 cell 高度，避免重复计算带来的卡顿
+                      </p>
+                  </li>
                 </ul>
             </div>
         </div>
